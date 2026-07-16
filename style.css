@@ -106,7 +106,12 @@ padding:10px;
 
 button{
 background:#0056b3;
-color:white;
+color:white;.service-box img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 padding:10px;
 border:none;
 cursor:pointer;
